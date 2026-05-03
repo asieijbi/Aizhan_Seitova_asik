@@ -20,8 +20,8 @@ public class BST<K extends Comparable<K>, V> {
 
 
     public class Entry {
-        private K key;
-        private V value;
+        private final K key;
+        private final V value;
 
         public Entry(K key, V value) {
             this.key = key;
